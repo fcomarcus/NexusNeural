@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[node name="Main" type="Node"]
+
+[node name="IAState" type="Node" parent="."]
+
+script = ExtResource( 1 )
+
+[ext_resource path="res://scripts/ia_aprendizado.gd" type="Script" id=1]

@@ -1,10 +1,10 @@
 [gd_scene load_steps=2 format=3]
 
-[node name="Fase2" type="Node2D"]
+[node name="Fase3" type="Node2D"]
 
 [node name="Decisao" type="Button" parent="."]
 
-text = "Decisão Autonomia +2"
+text = "Decisão Conflito +3"
 
 script = ExtResource( 1 )
 
@@ -14,4 +14,4 @@ script = ExtResource( 1 )
 
 [script]
 func _on_decisao_pressed():
-    IAState.registrar_decisao("autonomia", 2)
+    IAState.registrar_decisao("conflito", 3)
